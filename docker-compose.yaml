@@ -1,26 +1,20 @@
 version: "3.8"
-
 services:
   frontend:
     build:
       context: ./frontend
-      dockerfile: Dockerfile
-    ports:
-      - "8080:8080"
     volumes:
       - ./frontend:/app
-      - /app/node_modules
-
+    ports:
+      - "3000:3000"
+    command: ["npx", "http-server", "-p", "3000"]
   weather-api:
     build:
       context: ./weather-api
     ports:
       - "5000:5000"
-    container_name: weather-api-service
-
   location-service:
     build:
       context: ./location-service
     ports:
-      - "6000:6000"
-    container_name: location-service
+      - "8080:6000"  # Updated port to match Flask app

@@ -753,10 +753,6 @@ video {
   --tw-bg-opacity: 0.8;
 }
 
-.bg-\[url\(\'Background3\.jpg\'\)\]{
-  background-image: url('Background3.jpg');
-}
-
 .bg-\[url\(\'Background2\.jpg\'\)\]{
   background-image: url('Background2.jpg');
 }
@@ -819,10 +815,6 @@ video {
 
 .text-center{
   text-align: center;
-}
-
-.font-OpenSans{
-  font-family: Open Sans, sans-serif;
 }
 
 .text-2xl{

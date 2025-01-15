@@ -19,4 +19,14 @@ app.get('/api/weather', async (req, res) => {
     }
 });
 
+app.get('/weather', (req, res) => {
+    res.json({ message: 'Weather API is working!' });
+  });
+  
+  // Root route
+  app.get('/', (req, res) => {
+    res.send('Welcome to the Weather API!');
+  });
+  
+
 app.listen(PORT, () => console.log(`Weather API service running on port ${PORT}`));

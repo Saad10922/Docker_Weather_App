@@ -1,13 +1,7 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*.html"],
+  content: ['./index.html', './script.js'], // Adjust paths to match your files
   theme: {
-    extend: {
-      fontFamily: {
-          OpenSans: ["Open Sans", "sans-serif"]
-      }
-    },
+    extend: {},
   },
   plugins: [],
-}
-
+};
