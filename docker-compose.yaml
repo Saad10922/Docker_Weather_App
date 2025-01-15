@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+  weather-api:
+    build:
+      context: ./weather-api
+    ports:
+      - "5000:5000"
+    container_name: weather-api-service
+
+  location-service:
+    build:
+      context: ./location-service
+    ports:
+      - "6000:6000"
+    container_name: location-service
