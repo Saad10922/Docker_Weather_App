@@ -39,7 +39,7 @@
 2. Access the services:
    - **Frontend:** Navigate to `http://localhost:3000` in your browser.
    - **Weather API:** Accessible at `http://localhost:5000` (for API requests).
-   - **Location Service:** Accessible at `http://localhost:5001` (for API requests).
+   - **Location Service:** Accessible at `http://localhost:8080` (for API requests).
 
 3. To stop the services, press `Ctrl+C` and run:
    ```bash
