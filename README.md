@@ -127,8 +127,8 @@ The project consists of three interconnected microservices:
 For any questions or support, please reach out to:
 
 **Your Name**
-- Email: [your.email@example.com](mailto:saadq10922@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/m-saadmasood)
+- Email: [Muhammad Saad Masood](mailto:saadq10922@gmail.com)
+- LinkedIn: [M Saad Masood](https://www.linkedin.com/in/m-saadmasood)
 
 ---
 
